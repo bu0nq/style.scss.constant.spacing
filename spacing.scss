@@ -1,6 +1,29 @@
-$spacing-sm: 10px !default;
-$spacing-md: 15px !default;
-$spacing-lg: 20px !default;
-$spacing-xl: 25px !default;
-$spacing-2xl: 30px !default;
-$spacing-3xl: 35px !default;
+$spacing-5xs: 4px !default;
+$spacing-4xs: 8px !default;
+$spacing-3xs: 16px !default;
+$spacing-2xs: 20px !default;
+$spacing-xs: 24px !default;
+$spacing-sm: 32px !default;
+$spacing-md: 40px !default;
+$spacing-lg: 48px !default;
+$spacing-xl: 56px !default;
+$spacing-2xl: 64px !default;
+$spacing-3xl: 72px !default;
+$spacing-4xl: 80px !default;
+$spacing-5xl: 96px !default;
+
+$listOfSpacings: (
+        '5xs': $spacing-5xs,
+        '4xs': $spacing-4xs,
+        '3xs': $spacing-3xs,
+        '2xs': $spacing-2xs,
+        'xs': $spacing-xs,
+        'sm': $spacing-xs,
+        'md': $spacing-md,
+        'lg': $spacing-lg,
+        'xl': $spacing-xl,
+        '2xl': $spacing-2xl,
+        '3xl': $spacing-3xl,
+        '4xl': $spacing-4xl,
+        '5xl': $spacing-5xl,
+);
